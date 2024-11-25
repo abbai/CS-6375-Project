@@ -1,0 +1,14 @@
+# brain_tumor_dataset.yaml
+
+# Root directory path
+path: YoloModel/Brain Tumor labeled dataset
+
+# Train and validation directories (relative to `path`)
+train: /Users/abbyeast/Desktop/Fall 24/ML/Project/YoloModel/Brain Tumor labeled dataset/train
+val: /Users/abbyeast/Desktop/Fall 24/ML/Project/YoloModel/Brain Tumor labeled dataset/test
+
+# Number of classes
+nc: 4
+
+# Class names
+names: ['glioma_tumor', 'meningioma_tumor', 'no_tumor', 'pituitary_tumor']
